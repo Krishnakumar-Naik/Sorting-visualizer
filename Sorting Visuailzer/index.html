@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
-
   <link rel="shortcut icon" type="x-icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
   <title>Sorting Visualizer</title>
@@ -22,6 +21,7 @@
     <div class="navbar" id="navbar">
       <a id="random" onclick="RenderScreen()" style="width: 90px;">Generate array</a>
       <span class="options">
+        //list of sorting algorithm for user selection
         <select name="select sort algorithm" id="menu" class="algo-menu">
           <option value="0">Choose algorithm</option>
           <option value="1">Bubble Sort</option>
@@ -32,6 +32,7 @@
         </select>
       </span>
       <span class="options">
+        //User will select the array size
         <select name="select array size" id="menu" class="size-menu">
           <option value="0">Array size</option>
           <option value="5">5</option>
